@@ -1,0 +1,24 @@
+{
+  "name": "tempboard",
+  "version": "1.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "audit:prod": "npm audit --omit=dev --audit-level=high"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.41.1",
+    "@vercel/blob": "^2.9.0",
+    "client-zip": "^2.5.1",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1"
+}
+
+}
